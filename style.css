@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+.support_form {
+    width: 80%;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+
+table {
+    border-spacing: 20px;
+}
+
+.warning{
+    background-color: #769C30;
+    color: white;
+    font-size: 15px;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+}
+
+td {
+    vertical-align: top;
+}
+
+td.label_title{
+    text-align: right;
+}
+
+
+.button{
+    display: inline-block;
+    padding: 10px 40px;
+    font-size: 1.2em;
+    background-color: #769C30;
+    color: white;
+    border-style: none;
+}
+
+.error {
+    color: red;
+}
