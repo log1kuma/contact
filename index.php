@@ -50,7 +50,7 @@
                     <td class="label_title"><label for="email">メールアドレス</label></td>
                     <td><div class="warning">必須</div></td>
                     <td>
-                        <input type="text" name="email" value="<?php echo $inputs['email']; ?>" >
+                        <input type="email" name="email" value="<?php echo $inputs['email']; ?>" >
                         <?php if ($errors['email']) { ?>
                             <p style="color: red;">
                                 <?php 
